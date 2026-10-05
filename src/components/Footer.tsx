@@ -1,4 +1,5 @@
 import React from "react";
+import { PlayBeatLogo } from "./PlayBeatLogo";
 
 export const Footer: React.FC = () => {
   return (
@@ -6,13 +7,8 @@ export const Footer: React.FC = () => {
       <div className="wrap">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2 space-y-4">
-            <a href="#/" className="flex items-center gap-2.5 font-extrabold text-lg text-white">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-blue-500 via-purple-600 to-cyan-400 flex items-center justify-center">
-                <div className="w-0 h-0 border-t-[4px] border-t-transparent border-b-[4px] border-b-transparent border-l-[7px] border-l-white ml-0.5" />
-              </div>
-              <span>
-                PlayBeat <span className="text-slate-400 font-semibold">Digital</span>
-              </span>
+            <a href="#/" className="inline-block">
+              <PlayBeatLogo size="sm" />
             </a>
             <p className="max-w-md text-slate-400 leading-relaxed">
               Websites, mobile apps, SaaS platforms, and brand systems with working live demos you can test before committing to development.
