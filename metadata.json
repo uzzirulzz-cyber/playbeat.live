@@ -1,0 +1,6 @@
+{
+  "name": "PlayBeat Digital — Websites, Apps & SaaS with Live Demos",
+  "description": "Premium websites, mobile apps, SaaS platforms, ecommerce systems, and enterprise software with interactive live demos you can test before ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
