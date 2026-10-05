@@ -143,6 +143,27 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
+        {/* Ecosystem Logos */}
+        <div className="mt-16 pt-8 border-t border-white/10">
+          <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-6 text-center">
+            PlayBeat Ecosystem
+          </h4>
+          <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 opacity-60 hover:opacity-100 transition-opacity">
+            <div className="flex items-center gap-2">
+              <PlayBeatLogo size="xs" customText="PlayBeat" customTagline="DIGITAL" />
+            </div>
+            <div className="flex items-center gap-2">
+              <PlayBeatLogo size="xs" customText="playbeat.live" showTagline={false} />
+            </div>
+            <div className="flex items-center gap-2">
+              <PlayBeatLogo size="xs" customText="PLAYBEAT DIGITAL" customTagline="WORLD" />
+            </div>
+            <div className="flex items-center gap-2">
+              <PlayBeatLogo size="xs" customText="PLAYBEATTV" customTagline=".BUZZ" />
+            </div>
+          </div>
+        </div>
+
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row gap-4 items-center justify-between text-xs text-slate-500">
           <p className="max-w-2xl text-center md:text-left">
             Demo interfaces are illustrative examples created by PlayBeat Digital to demonstrate design and development capabilities. Final client projects are customized to their requirements.
